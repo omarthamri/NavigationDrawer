@@ -9,7 +9,12 @@
 import UIKit
 
 class HeaderTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var ProfileImg: UIImageView!
+    @IBOutlet weak var NameLbl: UILabel!
+    @IBOutlet weak var MailLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

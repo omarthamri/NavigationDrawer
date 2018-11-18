@@ -9,7 +9,12 @@
 import UIKit
 
 class MenuTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var MenuItemLbl: UILabel!
+    
+    @IBOutlet weak var MenuItemImg: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
